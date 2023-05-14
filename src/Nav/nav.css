@@ -1,0 +1,47 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+#nav {
+    width: 100%;
+    height: 50px;
+    box-sizing: border-box;
+    display: flex;
+}
+#div1 {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+#div1 span {
+    margin-left: 60px;
+}
+#title {
+    font-size: x-large;
+    font-family: fantasy;
+    color: #0048FF;
+}
+.drop{
+    cursor: pointer;
+}
+#div2 {
+    display: flex;
+    align-items: center;
+    margin-left: 50%;
+    gap: 60px;
+}
+#div2 button {
+    cursor: pointer;
+}
+#login {
+    background: none;
+    border: none;
+}
+#join {
+    background-color: #0096FF;
+    border: none;
+    color: white;
+    border-radius: 20px;
+    padding: 10px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}

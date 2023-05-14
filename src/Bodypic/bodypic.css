@@ -1,0 +1,163 @@
+#body {
+    height: 695px;
+    background-color: #3c4852;
+    color: white;
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+}
+#offer {
+    height: 500px;
+    width: 400px;
+    box-sizing: border-box;
+    margin-left: 55px;
+}
+#offer h1 {
+    width: max-content;
+}
+#offerlist {
+    margin-top: 25px;
+    height: 400px;
+    width: max-content;
+}
+#subscribe {
+    margin-left: 50vh;
+    color: black;
+    background-color: #E7E7E7;
+    width: 35%;
+    border-radius: 20px;
+}
+#pay {
+    display: flex;
+    justify-content: space-evenly;
+    box-sizing: border-box;
+    width: 115%;
+    height: auto;
+    margin-left: -10vh;
+}
+#signup {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+#signup h5 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 35%;
+    background-color: #0048FF;
+    height: 25px;
+    width: 25px;
+    border-radius: 15px;
+    color: white;
+}
+#subs {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+#subs h5 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30%;
+    background-color: #0048FF;
+    height: 25px;
+    width: 25px;
+    border-radius: 15px;
+    color: white;
+}
+#heading h2 {
+    margin-top: 20px;
+    margin-left: 10vh;
+}
+#btn {
+    margin-top: 10%;
+    box-sizing: border-box;
+}
+.radio {
+    box-sizing: border-box;
+    border: 2px solid black;
+    border-radius: 10px;
+    margin: 5px;
+    height: 50px;
+    padding-left: 25px;
+}
+#upper1 {
+    font-size: 11px;
+    margin-left: 30px;
+    box-sizing: border-box;
+    background-color: #DE4313;
+    width: max-content;
+    padding: 0 17px 0 17px;
+}
+#upper2 {
+    font-size: 11px;
+    margin-left: 30px;
+    box-sizing: border-box;
+    background-color: #47BA68;
+    width: max-content;
+    padding: 0 17px 0 17px;
+}
+#subfee {
+    margin-top: 5%;
+    margin-left: 10%;
+    width: 90%;
+}
+#offertime {
+    margin-top: 5%;
+    margin-left: 5%;
+    color: #DE4313;
+    background-color: #FEC163;
+    box-sizing: border-box;
+    border: 2px solid #DE4313;
+    border-radius: 5px;
+    width: 90%;
+}
+#cancle button {
+    width: 20vh;
+    height: 50px;
+    margin-bottom: 15%;
+    color: #DE4313;
+    cursor: pointer;
+    border: 2px solid #DE4313;
+}
+#proceed button {
+    width: 20vh;
+    height: 50px;
+    margin-bottom: 15%;
+    color: #D7EDDD;
+    background-color: #47BA68;
+    cursor: pointer;
+    border: 2px solid #47BA68;
+}
+#buttons {
+    margin-top: 5%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.box {
+    display: flex;
+    align-items: center;
+}
+.box input {
+    cursor: pointer;
+    height: 20px;
+    width: 20px;
+}
+.amount {
+    display: grid;
+    margin-left: 26%;
+}
+.amount1 {
+    display: grid;
+    margin-top: -15px;
+    margin-left: 26%;
+}
+#gst {
+    width: 70%;
+    display: flex;
+    justify-content: space-between;
+    margin-left: 10%;
+}
